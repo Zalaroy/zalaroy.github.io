@@ -1,0 +1,81 @@
+/* The navigation bar */
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	left: 0;
+	width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+	float: center;
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+	background: #ddd;
+	color: black;
+  }
+  
+  /* Main content */
+  .main {
+	margin-top: 75px; /* Add a top margin to avoid content overlay */
+  }
+
+/*///////////////TABLE/////////////// */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    border-color: #111;
+    border: 1px;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+td {
+    border: 1px;
+    border-color: #111;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+
+
+
+
+  /*///////////////MEUN/////////////// */
+  .menu {
+    background-color: #111;
+  }
+
+  .menu-item {
+      font-size: 16;
+      padding: 10px;
+      display: inline-block;
+  }
+
+  .menu-item :hover {
+    background-color: aqua;
+    cursor: pointer;
+  }
+
+  /* menu example using the above CSS
+  <body>
+    <div class = "menu">
+        <div class = "menu-item"> menu option 1<div>
+        <div class = "menu-item"> menu option 2<div>
+        <div class = "menu-item"> menu option 3<div>
+        <div class = "menu-item"> menu option 4<div>  
+    </div>
+  </body>
+  */
