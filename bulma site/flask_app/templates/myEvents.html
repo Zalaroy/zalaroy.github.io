@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}
+  {{ super() }}
+
+{% endblock %}
+
+
+{% block navbarend %}
+  {{ super() }}
+    
+{% endblock %}
+
+
+{% block content %}
+{{ super() }}
+<nav class="panel">
+    <p class="panel-heading">
+      My Events.
+    </p>
+    <div class="panel-block">
+      <p class="control has-icons-left">
+        <input class="input is-small" type="text" placeholder="search">
+        <span class="icon is-small is-left">
+          <i class="fas fa-search" aria-hidden="true"></i>
+        </span>
+      </p>
+    </div>
+    <p class="panel-tabs">
+      <a class="is-active">All Events.</a>
+      <a>Event 1.</a>
+      <a>Event 2.</a>
+      <a>Event 3.</a>
+    </p>
+    <a class="panel-block is-active">
+      <span class="panel-icon">
+        <i class="fas fa-book" aria-hidden="true"></i>
+      </span>
+      Date.
+    </a>
+    <a class="panel-block">
+      <span class="panel-icon">
+        <i class="fas fa-book" aria-hidden="true"></i>
+      </span>
+      Attendees.
+    </a>
+    <a class="panel-block">
+      <span class="panel-icon">
+        <i class="fas fa-book" aria-hidden="true"></i>
+      </span>
+      Agedna and Attire.
+    </a>
+    <a class="panel-block">
+      <span class="panel-icon">
+        <i class="fas fa-book" aria-hidden="true"></i>
+      </span>
+      Cost.
+    </a>
+    <a class="panel-block">
+      <span class="panel-icon">
+        <i class="fas fa-code-branch" aria-hidden="true"></i>
+      </span>
+      Slideshow.
+    </a>
+    <label class="panel-block">
+      <input type="checkbox">
+      remember me (USE THIS TO DOWNLOAD SLIDESHOW ONCE IN AN EVENT!)
+    </label>
+  </nav>
+{% endblock %}

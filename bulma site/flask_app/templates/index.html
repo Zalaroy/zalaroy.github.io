@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}
+  {{ super() }}
+{% endblock %}
+
+{% block navbarend %}
+  {{ super() }}
+  <div class="navbar-end">
+    <div class="navbar-item">
+      <div class="buttons">
+        <a class="button is-dark">
+          <strong>Sign up</strong>
+        </a>
+        <a class="button is-dark">
+          Log in
+        </a>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+
+{% block content %}
+{{ super() }}
+  <h1>Best Man.</h1>
+  <p class="important">
+    In today wold of pace and sophistication, Best Man offers a unqiues experince for the most exciting men of the world.
+{% endblock %}
